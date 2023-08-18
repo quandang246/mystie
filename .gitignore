@@ -1,2 +1,2 @@
 catalog/__pycache__/*.pyc
-
+catalog/migrations/__pycache__/*pyc
