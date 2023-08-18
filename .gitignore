@@ -1,1 +1,2 @@
 ECHO is on.
+catalog\__pycache__*.pyc
