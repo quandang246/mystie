@@ -1,2 +1,47 @@
-ECHO is on.
+# Byte-compiled / optimized / DLL files
+*/__pycache__
+*.py[cod]
+*$py.class
+
+# Virtual environment
+venv/
+env/
+*.env
+
+# Dependencies
+node_modules/
+*.log
+
+# Local development settings
+*.sqlite3
+*.db
+*.sqlite
+
+# Compiled Python files
 *.pyc
+*.pyo
+
+# IDE-specific files
+.vscode/
+.idea/
+*.sublime-*
+
+# Django project specific
+*.secret_key
+*.settings
+*.local_settings
+*.pyc
+*.pyo
+*.db
+*.sqlite3
+
+# Media and static files (these should be served by a web server)
+media/
+static/
+
+# Temporary files
+*.bak
+*.swp
+*~
+*.DS_Store
+Thumbs.db
