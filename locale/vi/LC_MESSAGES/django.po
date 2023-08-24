@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-08-23 11:09+0700\n"
+"POT-Creation-Date: 2023-08-28 11:18+0700\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -17,32 +17,49 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-#: .\catalog\templates\base_generic.html:6
+
+#: .\catalog\templates\base_generic.html:5
 msgid "Local Library"
 msgstr ""
 
-#: .\catalog\templates\base_generic.html:16
+#: .\catalog\templates\base_generic.html:13
 msgid "UML diagram"
 msgstr ""
 
-#: .\catalog\templates\base_generic.html:24
+#: .\catalog\templates\base_generic.html:21
 msgid "Home"
 msgstr ""
 
-#: .\catalog\templates\base_generic.html:25
+#: .\catalog\templates\base_generic.html:22
 msgid "All books"
 msgstr ""
 
-#: .\catalog\templates\base_generic.html:26
+#: .\catalog\templates\base_generic.html:23
 msgid "All authors"
 msgstr ""
 
-#: .\catalog\templates\base_generic.html:29 .\locallibrary\settings.py:132
+#: .\catalog\templates\base_generic.html:25
+msgid "User:"
+msgstr ""
+
+#: .\catalog\templates\base_generic.html:26
+msgid "My Borrowed"
+msgstr ""
+
+#: .\catalog\templates\base_generic.html:31 .\locallibrary\settings.py:132
 msgid "English"
 msgstr ""
 
-#: .\catalog\templates\base_generic.html:30
+#: .\catalog\templates\base_generic.html:32
 msgid "Tiếng Việt"
+msgstr ""
+
+#: .\catalog\templates\catalog\bookinstance_list_borrowed_user.html:5
+msgid "Borrowed books"
+msgstr ""
+
+#: .\catalog\templates\catalog\bookinstance_list_borrowed_user.html:16
+msgid "There are no books borrowed."
 msgstr ""
 
 #: .\catalog\templates\index.html:5
@@ -77,6 +94,80 @@ msgstr ""
 
 #: .\catalog\templates\index.html:13
 msgid "Authors"
+msgstr ""
+
+#: .\catalog\templates\index.html:16
+msgid "You have visited this page"
+msgstr ""
+
+#: .\catalog\templates\index.html:16
+msgid "time"
+msgstr ""
+
+#: .\catalog\templates\registration\login.html:7
+msgid "Your username and password didn't match. Please try again."
+msgstr ""
+
+#: .\catalog\templates\registration\login.html:12
+msgid ""
+"Your account doesn't have access to this page. To proceed, please login with "
+"an account that has access."
+msgstr ""
+
+#: .\catalog\templates\registration\login.html:14
+msgid "Please login to see this page."
+msgstr ""
+
+#: .\catalog\templates\registration\login.html:29
+msgid "login"
+msgstr ""
+
+#: .\catalog\templates\registration\login.html:34
+msgid "Lost password?"
+msgstr ""
+
+#: .\catalog\templates\registration\logout.html:4
+msgid "Logged out!"
+msgstr ""
+
+#: .\catalog\templates\registration\logout.html:5
+msgid "Click here to login again."
+msgstr ""
+
+#: .\catalog\templates\registration\password_reset_confirm.html:4
+msgid "Please enter (and confirm) your new password."
+msgstr ""
+
+#: .\catalog\templates\registration\password_reset_confirm.html:9
+msgid "New password:"
+msgstr ""
+
+#: .\catalog\templates\registration\password_reset_confirm.html:13
+msgid "Confirm password:"
+msgstr ""
+
+#: .\catalog\templates\registration\password_reset_confirm.html:18
+msgid "Change my password"
+msgstr ""
+
+#: .\catalog\templates\registration\password_reset_confirm.html:23
+msgid "Password reset failed"
+msgstr ""
+
+#: .\catalog\templates\registration\password_reset_confirm.html:24
+msgid ""
+"The password reset link was invalid, possibly because it has already been "
+"used. Please request a new password reset."
+msgstr ""
+
+#: .\catalog\templates\registration\password_reset_done.html:4
+msgid ""
+"We've emailed you instructions for setting your password. If they haven't "
+"arrived in a few minutes, check your spam folder."
+msgstr ""
+
+#: .\catalog\templates\registration\password_reset_form.html:10
+msgid "Reset password"
 msgstr ""
 
 #: .\locallibrary\settings.py:133
