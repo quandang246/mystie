@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-08-28 11:18+0700\n"
+"POT-Creation-Date: 2023-08-28 11:39+0700\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -43,7 +43,15 @@ msgid "User:"
 msgstr ""
 
 #: .\catalog\templates\base_generic.html:26
+msgid "Logout"
+msgstr ""
+
+#: .\catalog\templates\base_generic.html:27
 msgid "My Borrowed"
+msgstr ""
+
+#: .\catalog\templates\base_generic.html:29
+msgid "Login"
 msgstr ""
 
 #: .\catalog\templates\base_generic.html:31 .\locallibrary\settings.py:132
