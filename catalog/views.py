@@ -5,6 +5,7 @@ from django.conf import settings
 from typing import Any, Dict
 from django.views import generic
 from django.shortcuts import get_object_or_404
+from django.contrib.auth.mixins import LoginRequiredMixin
 
 # Create your views here.
 
@@ -61,3 +62,11 @@ def set_language(request, language_code):
         activate(language_code)
         request.session['django_language'] = language_code
     return redirect(request.META.get('HTTP_REFERER', '/'))
+
+class LoanedBooksByUserListView(LoginRequiredMixin, generic.ListView):
+    model = BookInstance
+    template_name = 'catalog/bookinstance_list_borrowed_user.html'  # Replace with your template path
+    context_object_name = 'bookinstance_list'
+
+    def get_queryset(self):
+        return BookInstance.objects.filter(borrower=self.request.user, status__exact='o').order_by('due_back')

@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-08-28 11:43+0700\n"
+"POT-Creation-Date: 2023-08-29 15:12+0700\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -44,6 +44,31 @@ msgstr ""
 
 #: .\catalog\templates\base_generic.html:30
 msgid "Tiếng Việt"
+msgstr ""
+
+#: .\catalog\templates\base_generic.html:34
+msgid "User:"
+msgstr ""
+
+#: .\catalog\templates\base_generic.html:35
+msgid "My Borrowed"
+msgstr ""
+
+#: .\catalog\templates\base_generic.html:36
+msgid "logout"
+msgstr ""
+
+#: .\catalog\templates\base_generic.html:38
+#: .\catalog\templates\registration\login.html:29
+msgid "Login"
+msgstr ""
+
+#: .\catalog\templates\catalog\bookinstance_list_borrowed_user.html:5
+msgid "Borrowed books"
+msgstr ""
+
+#: .\catalog\templates\catalog\bookinstance_list_borrowed_user.html:17
+msgid "There are no books borrowed."
 msgstr ""
 
 #: .\catalog\templates\index.html:5
@@ -86,6 +111,76 @@ msgstr ""
 
 #: .\catalog\templates\index.html:16
 msgid "time"
+msgstr ""
+
+#: .\catalog\templates\registration\logged_out.html:5
+msgid "Logged out!"
+msgstr ""
+
+#: .\catalog\templates\registration\logged_out.html:6
+msgid "Click here to login again."
+msgstr ""
+
+#: .\catalog\templates\registration\login.html:6
+msgid "Your username and password didn't match. Please try again."
+msgstr ""
+
+#: .\catalog\templates\registration\login.html:11
+msgid ""
+"Your account doesn't have access to this page. To proceed, please login with "
+"an account that has access."
+msgstr ""
+
+#: .\catalog\templates\registration\login.html:13
+msgid "Please login to see this page."
+msgstr ""
+
+#: .\catalog\templates\registration\login.html:33
+msgid "Lost password?"
+msgstr ""
+
+#: .\catalog\templates\registration\password_reset_confirm.html:6
+msgid "Please enter (and confirm) your new password."
+msgstr ""
+
+#: .\catalog\templates\registration\password_reset_confirm.html:11
+msgid "New password:"
+msgstr ""
+
+#: .\catalog\templates\registration\password_reset_confirm.html:15
+msgid "Confirm password:"
+msgstr ""
+
+#: .\catalog\templates\registration\password_reset_confirm.html:20
+msgid "Change my password"
+msgstr ""
+
+#: .\catalog\templates\registration\password_reset_confirm.html:25
+msgid "Password reset failed"
+msgstr ""
+
+#: .\catalog\templates\registration\password_reset_confirm.html:26
+msgid ""
+"The password reset link was invalid, possibly because it has already been "
+"used. Please request a new password reset."
+msgstr ""
+
+#: .\catalog\templates\registration\password_reset_done.html:5
+msgid ""
+"We've emailed you instructions for setting your password. If they haven't "
+"arrived in a few minutes, check your spam folder."
+msgstr ""
+
+#: .\catalog\templates\registration\password_reset_email.html:5
+msgid "Someone asked for a password reset for email"
+msgstr ""
+
+#: .\catalog\templates\registration\password_reset_email.html:5
+msgid "Follow the link below:"
+msgstr ""
+
+#: .\catalog\templates\registration\password_reset_form.html:11
+msgid "Reset password"
 msgstr ""
 
 #: .\locallibrary\settings.py:133
